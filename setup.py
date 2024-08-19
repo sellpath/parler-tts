@@ -21,7 +21,7 @@ _deps = [
     "transformers",
     "torch",
     "sentencepiece",
-    "descript-audio-codec @ git+https://github.com/sellpath/audiotools.git",
+    "descript-audio-codec @ git+https://github.com/sellpath/descript-audio-codec.git",
 ]
 
 _extras_dev_deps = [
