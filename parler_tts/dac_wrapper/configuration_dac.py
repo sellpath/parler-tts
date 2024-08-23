@@ -3,7 +3,7 @@ from transformers import PretrainedConfig
 
 
 class DACConfig(PretrainedConfig):
-    model_type = "dac"
+    model_type = "dac_parler"
 
     def __init__(
         self,

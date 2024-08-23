@@ -14,5 +14,5 @@ from .modeling_parler_tts import (
 
 from .streamer import ParlerTTSStreamer
 
-AutoConfig.register("dac", DACConfig)
+AutoConfig.register("dac_parler", DACConfig)
 AutoModel.register(DACConfig, DACModel)

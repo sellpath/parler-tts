@@ -60,8 +60,7 @@ from transformers.utils.import_utils import is_flash_attn_2_available, is_flash_
 from .configuration_parler_tts import ParlerTTSConfig, ParlerTTSDecoderConfig
 from .dac_wrapper import DACConfig, DACModel
 
-
-AutoConfig.register("dac", DACConfig)
+AutoConfig.register("dac_parler", DACConfig)
 AutoModel.register(DACConfig, DACModel)
 
 if TYPE_CHECKING:
